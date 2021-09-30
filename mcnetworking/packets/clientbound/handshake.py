@@ -1,6 +1,6 @@
 import struct
-from data_types.varint import pack_varint
-from data_types.string import pack_string
+from mcnetworking.data_types.varint import pack_varint
+from mcnetworking.data_types.string import pack_string
 
 
 class Handshake:
