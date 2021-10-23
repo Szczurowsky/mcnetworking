@@ -1,5 +1,5 @@
 import unittest
-from mcnetworking.packets.clientbound.Handshake import Handshake
+from packets.serverbound.Handshake import Handshake
 
 
 class TestHandshake(unittest.TestCase):
